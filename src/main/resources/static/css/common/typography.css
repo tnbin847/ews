@@ -1,0 +1,202 @@
+@charset "UTF-8";
+
+/** 웹 사이트 내의 텍스트와 관련된 스타일 */
+/*! EASY-WORKS v1.0.0 | copyright 2025. 박수빈 all right reserved. | https://github.com/tnbin847/ews */
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    font-display: swap;
+    src: url('/fonts/pretendard/Pretendard-Regular.woff'),
+         url('/fonts/pretendard/Pretendard-Regular.woff2');
+}
+
+@font-face {
+    font-family: 'Pretendard-Medium';
+    font-display: swap;
+    src: url('/fonts/pretendard/Pretendard-Medium.woff'),
+         url('/fonts/pretendard/Pretendard-Medium.woff2');
+}
+
+@font-face {
+    font-family: 'Pretendard-SemiBold';
+    font-display: swap;
+    src: url('/fonts/pretendard/Pretendard-SemiBold.woff'),
+         url('/fonts/pretendard/Pretendard-SemiBold.woff2');
+}
+
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    font-display: swap;
+    src: url('/fonts/montserrat/Montserrat-Bold.woff'),
+         url('/fonts/montserrat/Montserrat-Bold.woff2');
+}
+
+@font-face {
+    font-family: 'Montserrat-ExtraBold';
+    font-display: swap;
+    src: url('/fonts/montserrat/Montserrat-ExtraBold.woff'),
+         url('/fonts/montserrat/Montserrat-BlExtraBoldack.woff2');
+}
+
+@font-face {
+    font-family: 'Montserrat-Black';
+    font-display: swap;
+    src: url('/fonts/montserrat/Montserrat-Black.woff'),
+         url('/fonts/montserrat/Montserrat-Black.woff2');
+}
+
+
+:root {
+    /* === 타이포그래피 === */
+    --font-primary: 'Pretendard-Regular', sans-serif;
+    --font-secondary: 'Pretendard-Medium', sans-serif;
+    --font-tertiary: 'Pretendard-SemiBold', sans-serif;
+
+    --text-scale: 4px;
+    --text-size-base: 13px;
+
+    --text-sm: calc(var(--text-scale) + 8px);
+    --text-md: calc(var(--text-scale) + 14px);
+    --text-lg: calc(var(--text-scale) + 20px);
+    --text-xl: calc(var(--text-scale) + 26px);
+
+    
+    /* === 아이콘 === */
+    --icon-scale: 4px;
+    --icon-size-base: 12px;
+
+    --icon-md: calc(var(--icon-scale) + var(--text-sm));
+    --icon-lg: calc(var(--icon-scale) + var(--text-md));
+    --icon-xl: calc(var(--icon-scale) + var(--text-lg));
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
