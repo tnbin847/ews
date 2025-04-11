@@ -1,30 +1,87 @@
 @charset "UTF-8";
 
-/** description about this stylesheet file... */
-/*! 시스템명 v1.0.0 | copyright 생성년도. 박수빈(tnqls847) all right reserved. | https://github.com/tnbin847 */
+/** 웹 페이지 내 공통 레이아웃 */
+/*! EASY-WORKS v1.0.0 | copyright 2025. 박수빈 all right reserved. | https://github.com/tnbin847/ews */
+
+#webpage {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#container {
+    display: flex;
+    flex: 1;
+}
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: var(--spacing-xs) var(--spacing-sm);
+    color: var(--color-helper);
+    font-size: var(--text-sm);
+    background-color: var(--color-gray-100);
+}
+
+#footer .copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: var(--spacing-xl);
+}
+
+#footer .fnb ul {
+    gap: 0px var(--spacing-sm);
+}
+
+#footer .fnb ul > .fnb-item a {
+    color: var(--color-icon);
+    font-size: var(--icon-md);
+}
 
 
+/* =========================================================================
+= # 미디어 쿼리
+========================================================================= */
+/* === SUBSECTION NAME === */
+@media (min-width: 1281px) {
+  /* your styles here */
+}
 
 
+/* === SUBSECTION NAME === */
+@media (min-width: 1024px) and (max-width: 1280px) {
+  /* your styles here */
+}
 
 
+/* === SUBSECTION NAME === */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* your styles here */
+}
 
 
+/* === SUBSECTION NAME === */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* your styles here */
+}
 
 
+/* === SUBSECTION NAME === */
+@media (min-width: 481px) and (max-width: 767px) {
+  /* your styles here */
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
+/* === SUBSECTION NAME === */
+@media (min-width: 320px) and (max-width: 480px) {
+  /* your styles here */
+}
 
 
 

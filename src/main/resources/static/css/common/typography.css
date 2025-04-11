@@ -36,7 +36,7 @@
     font-family: 'Montserrat-ExtraBold';
     font-display: swap;
     src: url('/fonts/montserrat/Montserrat-ExtraBold.woff'),
-         url('/fonts/montserrat/Montserrat-BlExtraBoldack.woff2');
+         url('/fonts/montserrat/Montserrat-ExtraBold.woff2');
 }
 
 @font-face {
@@ -48,155 +48,65 @@
 
 
 :root {
+    /* === 텍스트 색상 === */
+    --text-primary: var(--color-gray-800);
+    --text-secondary: var(--color-dark);
+
     /* === 타이포그래피 === */
     --font-primary: 'Pretendard-Regular', sans-serif;
     --font-secondary: 'Pretendard-Medium', sans-serif;
-    --font-tertiary: 'Pretendard-SemiBold', sans-serif;
-
-    --text-scale: 4px;
-    --text-size-base: 13px;
-
-    --text-sm: calc(var(--text-scale) + 8px);
-    --text-md: calc(var(--text-scale) + 14px);
-    --text-lg: calc(var(--text-scale) + 20px);
-    --text-xl: calc(var(--text-scale) + 26px);
-
+    --font-heading-primary: 'Pretendard-SemiBold', sans-serif;
+    --font-heading-secondary: 'Montserrat-ExtraBold', sans-serif;
     
-    /* === 아이콘 === */
-    --icon-scale: 4px;
-    --icon-size-base: 12px;
-
-    --icon-md: calc(var(--icon-scale) + var(--text-sm));
-    --icon-lg: calc(var(--icon-scale) + var(--text-md));
-    --icon-xl: calc(var(--icon-scale) + var(--text-lg));
+    /* === 기타 === */
+    --font-weight-default: 600;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* =========================================================================
+= # 공통                                                                  
+========================================================================= */
+html, body {
+    --webit-font-smoothing: antialiased;
+    --moz-osx-font-smoothing: grayscale;
+    color: var(--text-primary);
+    font-family: var(--font-primary);
+    font-size: var(--text-size-base);
+    font-weight: var(--font-weight-default);
+}
+
+
+/* =========================================================================
+= # 텍스트 정렬                                                                  
+========================================================================= */
+.is-text-start {
+    text-align: left;
+}
+
+.is-text-end {
+    text-align: right;
+}
+
+.is-text-center {
+    text-align: center;
+}
+
+
+/* =========================================================================
+= # 텍스트 색상                                                                  
+========================================================================= */
+.is-text-primary {
+    color: var(--color-primary);
+}
+
+.is-text-secondary {
+    color: var(--color-secondary);
+}
+
+.is-text-accent {
+    color: var(--color-accent);
+}
+
+.is-text-helper {
+    color: var(--color-helper);
+}
