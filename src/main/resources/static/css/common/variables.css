@@ -3,6 +3,9 @@
 /** 프로젝트 전반에서 사용되는 공통 스타일 관련 값들을 정의한 CSS 변수 */
 /*! EASY-WORKS v1.0.0 | copyright 2025. 박수빈 all right reserved. | https://github.com/tnbin847/ews */
 
+/* =========================================================================
+= # CSS 변수                                                                  
+========================================================================= */
 :root {
     /* === 기본 색상 === */
     --color-primary: #434CE6;
@@ -33,7 +36,7 @@
 
     /* === 텍스트 크기 === */
     --text-scale: 4px;
-    --text-size-base: 13px;
+    --text-base: 13px;
 
     --text-sm: calc(var(--text-scale) + 8px);
     --text-md: calc(var(--text-scale) + 14px);
@@ -53,17 +56,20 @@
     /* === 간격 === */
     --spacing-unit: 16px;
     
-    --spacing-3xs: calc(var(--spacing-unit) * 0.25);
-    --spacing-2xs: calc(var(--spacing-unit) * 0.5);
-    --spacing-xs: calc(var(--spacing-unit) * 0.75);
+    /* 2xs : 4px / xs : 8px */
+    --spacing-2xs: calc(var(--spacing-unit) * 0.25);
+    --spacing-xs: calc(var(--spacing-unit) * 0.5);
 
-    --spacing-sm: calc(var(--spacing-unit) * 1.25);
-    --spacing-md: calc(var(--spacing-unit) * 1.5);
-    --spacing-lg: calc(var(--spacing-unit) * 1.75);
+    /* sm : 12px / md : 20px / lg: 24px */
+    --spacing-sm: calc(var(--spacing-unit) * 0.75);
+    --spacing-md: calc(var(--spacing-unit) * 1.25);
+    --spacing-lg: calc(var(--spacing-unit) * 1.5);
+
     
-    --spacing-xl: calc(var(--spacing-unit) * 2);
-    --spacing-2xl: calc(var(--spacing-unit) * 2.25);
-    --spacing-3xl: calc(var(--spacing-unit) * 2.5);
+    /* xl : 28px / 2xl : 32px / 3xl : 36px */
+    --spacing-xl: calc(var(--spacing-unit) * 1.75);
+    --spacing-2xl: calc(var(--spacing-unit) * 2);
+    --spacing-3xl: calc(var(--spacing-unit) * 2.25);
 
 
     /* === 테두리 === */

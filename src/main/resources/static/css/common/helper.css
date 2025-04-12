@@ -24,7 +24,7 @@
 
 
 /* =========================================================================
-= # 플렉스 박스
+= # 플렉스박스
 ========================================================================= */
 /* === 수직  === */
 .flex-v {
@@ -83,6 +83,9 @@
 
 /* =========================================================================
 = # 간격
+=  - 마진 : 상/하
+=  - 패딩 : 좌/우/전체
+=  - 갭 : 수직/수평/전체
 ========================================================================= */
 /* === 마진 === */
 .mb-1 {
@@ -98,11 +101,11 @@
 }
 
 .mb-4 {
-    margin-bottom: var(--spacing-lg);
+    margin-bottom: var(--spacing-xl);
 }
 
 .mb-5 {
-    margin-bottom: var(--spacing-xl);
+    margin-bottom: var(--spacing-3xl);
 }
 
 .mt-1 {
@@ -118,11 +121,11 @@
 }
 
 .mt-4 {
-    margin-top: var(--spacing-lg);
+    margin-top: var(--spacing-xl);
 }
 
 .mt-5 {
-    margin-top: var(--spacing-xl);
+    margin-top: var(--spacing-3xl);
 }
 
 .mv-1 {
@@ -138,11 +141,11 @@
 }
 
 .mv-4 {
-    margin: var(--spacing-lg) 0px;
+    margin: var(--spacing-xl) 0px;
 }
 
 .mv-5 {
-    margin: var(--spacing-xl) 0px;
+    margin: var(--spacing-3xl) 0px;
 }
 
 /* === 패딩 === */
@@ -159,11 +162,11 @@
 }
 
 .ps-4 {
-    padding-left: var(--spacing-lg);
+    padding-left: var(--spacing-xl);
 }
 
 .ps-5 {
-    padding-left: var(--spacing-xl);
+    padding-left: var(--spacing-3xl);
 }
 
 .pe-1 {
@@ -179,11 +182,11 @@
 }
 
 .pe-4 {
-    padding-right: var(--spacing-lg);
+    padding-right: var(--spacing-xl);
 }
 
 .pe-5 {
-    padding-right: var(--spacing-xl);
+    padding-right: var(--spacing-3xl);
 }
 
 .ph-1 {
@@ -199,11 +202,11 @@
 }
 
 .ph-4 {
-    padding: 0px var(--spacing-lg);
+    padding: 0px var(--spacing-xl);
 }
 
 .ph-5 {
-    padding: 0px var(--spacing-xl);
+    padding: 0px var(--spacing-3xl);
 }
 
 .p-1 {
@@ -219,9 +222,70 @@
 }
 
 .p-4 {
-    padding: var(--spacing-lg);
+    padding: var(--spacing-xl);
 }
 
 .p-5 {
-    padding: var(--spacing-xl);
+    padding: var(--spacing-3xl);
+}
+
+/* === 갭 === */
+.gv-1 {
+    gap: var(--spacing-2xs) 0px;
+}
+
+.gv-2 {
+    gap: var(--spacing-unit) 0px;
+}
+
+.gv-3 {
+    gap: var(--spacing-md) 0px;
+}
+
+.gv-4 {
+    gap: var(--spacing-xl) 0px;
+}
+
+.gv-5 {
+    gap: var(--spacing-3xl) 0px;
+}
+
+.gh-1 {
+    gap: 0px var(--spacing-2xs);
+}
+
+.gh-2 {
+    gap: 0px var(--spacing-unit);
+}
+
+.gh-3 {
+    gap: 0px var(--spacing-md);
+}
+
+.gh-4 {
+    gap: 0px var(--spacing-xl);
+}
+
+.gh-5 {
+    gap: 0px var(--spacing-3xl);
+}
+
+.g-1 {
+    gap: var(--spacing-2xs);
+}
+
+.g-2 {
+    gap: var(--spacing-unit);
+}
+
+.g-3 {
+    gap: var(--spacing-md);
+}
+
+.g-4 {
+    gap: var(--spacing-xl);
+}
+
+.g-5 {
+    gap: var(--spacing-3xl);
 }

@@ -3,6 +3,9 @@
 /** 웹 사이트 내의 텍스트와 관련된 스타일 */
 /*! EASY-WORKS v1.0.0 | copyright 2025. 박수빈 all right reserved. | https://github.com/tnbin847/ews */
 
+/* =========================================================================
+= # 웹 글꼴                                                                  
+========================================================================= */
 @font-face {
     font-family: 'Pretendard-Regular';
     font-display: swap;
@@ -47,11 +50,10 @@
 }
 
 
+/* =========================================================================
+= # CSS 변수                                                                  
+========================================================================= */
 :root {
-    /* === 텍스트 색상 === */
-    --text-primary: var(--color-gray-800);
-    --text-secondary: var(--color-dark);
-
     /* === 타이포그래피 === */
     --font-primary: 'Pretendard-Regular', sans-serif;
     --font-secondary: 'Pretendard-Medium', sans-serif;
@@ -69,9 +71,9 @@
 html, body {
     --webit-font-smoothing: antialiased;
     --moz-osx-font-smoothing: grayscale;
-    color: var(--text-primary);
+    color: var(--color-gray-800);
     font-family: var(--font-primary);
-    font-size: var(--text-size-base);
+    font-size: var(--text-base);
     font-weight: var(--font-weight-default);
 }
 
