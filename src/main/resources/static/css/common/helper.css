@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+/** 사이트 전반적으로 재사용할 유틸리티 스타일 */
+/*! EASY WORKS v1.0.0 | copyright 2025. 박수빈(tnqls847) all right reserved. | https://github.com/tnbin847/ews */
+
+/* ============================================================
+=   # 플렉스 박스
+============================================================ */
+/* === 수직 정렬 === */
+.flex-v {
+    flex-direction: column;
+}
+
+.flex-v.is-start {
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.flex-v.is-end {
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.flex-v.is-middle {
+    align-items: center;
+}
+
+/* === 수평 정렬 === */
+.flex-h {
+    flex-direction: row;
+}
+
+.flex-h.is-start {
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flex-h.is-end {
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.flex-h.is-middle {
+    justify-content: center;
+}
+
+.flex-h.is-between {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-h.is-around {
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* === 정중앙 정렬 === */
+.flex-v.is-center, .flex-h.is-center {
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* ============================================================
+=   # 디스플레이
+============================================================ */
+.is-flex { display: flex; }
+.is-inline-flex { display: inline-flex; }
+
+.is-block { display: block; }
+.is-inline-block { display: inline-block; }
+
+
+/* ============================================================
+=   # 간격
+============================================================ */
+/* === 마진 : 상/히 === */
+.mb-1 { margin-bottom: var(--spacing-2xs); }
+.mb-2 { margin-bottom: var(--spacing-unit); }
+.mb-3 { margin-bottom: var(--spacing-md); }
+.mb-4 { margin-bottom: var(--spacing-xl); }
+.mb-5 { margin-bottom: var(--spacing-3xl); }
+
+.mt-1 { margin-top: var(--spacing-2xs); }
+.mt-2 { margin-top: var(--spacing-unit); }
+.mt-3 { margin-top: var(--spacing-md); }
+.mt-4 { margin-top: var(--spacing-xl); }
+.mt-5 { margin-top: var(--spacing-3xl); }
+
+.mv-1 { margin: var(--spacing-2xs) 0px; }
+.mv-2 { margin: var(--spacing-unit) 0px; }
+.mv-3 { margin: var(--spacing-md) 0px; }
+.mv-4 { margin: var(--spacing-xl) 0px; }
+.mv-5 { margin: var(--spacing-3xl) 0px; }
+
+/* === 패딩 === */
+.ps-1 { padding-left: var(--spacing-2xs); }
+.ps-2 { padding-left: var(--spacing-unit); }
+.ps-3 { padding-left: var(--spacing-md); }
+.ps-4 { padding-left: var(--spacing-xl); }
+.ps-5 { padding-left: var(--spacing-3xl); }
+
+.pe-1 { padding-right: var(--spacing-2xs); }
+.pe-2 { padding-right: var(--spacing-unit); }
+.pe-3 { padding-right: var(--spacing-md); }
+.pe-4 { padding-right: var(--spacing-xl); }
+.pe-5 { padding-right: var(--spacing-3xl); }
+
+.ph-1 { padding: 0px var(--spacing-2xs); }
+.ph-2 { padding: 0px var(--spacing-unit); }
+.ph-3 { padding: 0px var(--spacing-md); }
+.ph-4 { padding: 0px var(--spacing-xl); }
+.ph-5 { padding: 0px var(--spacing-3xl); }
+
+.pa-1 { padding: var(--spacing-2xs); }
+.pa-2 { padding: var(--spacing-unit); }
+.pa-3 { padding: var(--spacing-md); }
+.pa-4 { padding: var(--spacing-xl); }
+.pa-5 { padding: var(--spacing-3xl); }
+
+/* === 갭 === */
+.gv-1 { gap: var(--spacing-2xs) 0px; }
+.gv-2 { gap: var(--spacing-unit) 0px; }
+.gv-3 { gap: var(--spacing-md) 0px; }
+.gv-4 { gap: var(--spacing-xl) 0px; }
+.gv-5 { gap: var(--spacing-3xl) 0px; }
+
+.gh-1 { gap: 0px var(--spacing-2xs); }
+.gh-2 { gap: 0px var(--spacing-unit); }
+.gh-3 { gap: 0px var(--spacing-md); }
+.gh-4 { gap: 0px var(--spacing-xl); }
+.gh-5 { gap: 0px var(--spacing-3xl); }
+
+.ga-1 { gap: var(--spacing-2xs); }
+.ga-2 { gap: var(--spacing-unit); }
+.ga-3 { gap: var(--spacing-md); }
+.ga-4 { gap: var(--spacing-xl); }
+.ga-5 { gap: var(--spacing-3xl); }
