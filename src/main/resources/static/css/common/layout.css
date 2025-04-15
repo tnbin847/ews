@@ -1,13 +1,27 @@
 @charset "UTF-8";
 
-/** description about this stylesheet file... */
+/** 웹 페이지 내 공통 레이아웃 */
 /*! EASY WORKS v1.0.0 | copyright 2025. 박수빈(tnqls847) all right reserved. | https://github.com/tnbin847/ews */
 
+/* ========================================
+=   # 페이지 전체 영역
+======================================== */
+#webpage {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
 
 
-
-
-
+/* ========================================
+=   # 본문 영역
+======================================== */
+#container {
+    display: flex;
+    flex: 1;
+}
 
 
 
