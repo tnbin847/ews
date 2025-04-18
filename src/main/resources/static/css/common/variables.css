@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+/*! ⓒ 2025. subin park all rights reserved. | https://github.com/tnbin847/ews */
+
+:root {
+    --color-primary: #434CE6;
+    --color-secondary: #D1D3FA;
+    --color-accent: #2876EB;
+    --color-muted: #A7ACB6;
+    --color-light: #F8F8F9;
+    --color-dark: #484757;
+
+    --color-ok: #76C398;
+    --color-warn: #FBCA77;
+    --color-danger: #EE585B;
+
+    --color-white: #FFFFFF;
+    --color-gray-01: #F8F9FA;
+    --color-gray-02: #E9ECEF;
+    --color-gray-03: #DEE2E6;
+    --color-gray-04: #CED4DA;
+    --color-gray-05: #ADB5BD;
+    --color-gray-06: #6C6B7E;
+    --color-gray-07: #495057;
+    --color-gray-08: #343A40;
+    --color-gray-09: #212529;
+    --color-black: #0A0C0D;
+
+
+    --spacing-unit: 12px;
+
+    --spacing-none: 0px;
+
+    /* 2xs : 3px / xs : 6px / sm : 9px */
+    --spacing-2xs: calc(var(--spacing-unit) * 0.25);
+    --spacing-xs: calc(var(--spacing-unit) * 0.5);
+    --spacing-sm: calc(var(--spacing-unit) * 0.75);
+    
+    /* md : 24px / lg : 32px / xl : 40px / 2xl : 48px */
+    --spacing-md: calc(calc(var(--spacing-unit) + 4px) * 1.5);
+    --spacing-lg: calc(calc(var(--spacing-unit) + 4px) * 2);
+    --spacing-xl: calc(calc(var(--spacing-unit) + 4px) * 2.5);
+    --spacing-2xl: calc(calc(var(--spacing-unit) + 4px) * 3);
+
+
+    --text-scale: 4px;
+    --text-base-size: 13px;
+
+    /* sm : 12px / md : 20px / lg : 28px / xl : 36px */
+    --text-sm: calc(var(--text-scale) + 8px);
+    --text-md: calc(var(--text-scale) + 16px);
+    --text-lg: calc(var(--text-scale) + 24px);
+    --text-xl: calc(var(--text-scale) + 32px);
+
+
+    --icon-scale: 4px;
+    --icon-base-size: 16px;
+
+    /* md : 16px / lg : 24px */
+    --icon-md: calc(var(--text-sm) + var(--icon-scale));
+    --icon-lg: calc(var(--text-md) + var(--icon-scale));
+
+
+    --img-scale: 2px;
+
+    /* xs : 24px / sm : 48px / md : 96px / lg : 192px / xl : 384px */
+    --img-xs: calc(var(--img-scale) * 12px);
+    --img-sm: calc(var(--img-scale) * 24px);
+    --img-md: calc(var(--img-scale) * 48px);
+    --img-lg: calc(var(--img-scale) * 96px);
+    --img-xl: calc(var(--img-scale) * 192px);
+
+
+    --border-width-sm: 1px;
+    --border-width-md: 2px;
+    --border-width-lg: 3px;
+
+    --border-radius-sm: 2px;
+    --border-radius-md: 4px;
+    --border-radius-lg: 6px;
+    --border-radius-full: 50px;
+
+
+    --opacity-weak: 0.3;
+    --opacity-strong: 0.7;
+}
